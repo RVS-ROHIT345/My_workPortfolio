@@ -43,7 +43,7 @@ const AboutSection: React.FC = () => {
                 <div className="absolute bottom-0 right-0 w-32 h-32 bg-[#64ffda]/10 rounded-full translate-x-8 translate-y-8"></div>
                 <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-xl border-8 border-[#E79302]">
                     <img 
-                        src="/ShowcaseMyWork/images/rohit_about.jpg"
+                        src="public/images/rohit_about.jpg"
                         alt="Venkata Satya Rohit Ramena" 
                         className="w-full h-full object-cover" 
                     />
