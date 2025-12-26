@@ -23,9 +23,9 @@ function App() {
   };
 
   return (
-    <div className="bg-[#0a192f] text-slate-300">
+    <div className="bg-[#0a192f] text-slate-300 w-full overflow-x-hidden min-h-screen">
       <Header />
-      <main>
+      <main className="w-full">
         <HeroSection />
         <AboutSection />
         <SkillsSection />
