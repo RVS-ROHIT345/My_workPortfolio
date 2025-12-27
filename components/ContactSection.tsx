@@ -14,15 +14,17 @@ const SocialIcon = ({ href, children }: { href: string; children?: React.ReactNo
 );
 
 const ContactInfoCard = ({ icon, title, value }: { icon: React.ReactNode, title: string, value: string }) => (
-    <div className="group relative bg-[#112240] p-6 rounded-xl shadow-lg border border-[#233554] flex items-center space-x-5 transition-all duration-300 hover:-translate-y-2 hover:border-[#64ffda]/50 hover:shadow-[0_10px_30px_-10px_rgba(100,255,218,0.2)] overflow-hidden">
+    <div className="group relative bg-[#112240] p-4 sm:p-6 rounded-xl shadow-lg border border-[#233554] flex items-center space-x-4 sm:space-x-5 transition-all duration-300 hover:-translate-y-2 hover:border-[#64ffda]/50 hover:shadow-[0_10px_30px_-10px_rgba(100,255,218,0.2)] overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#64ffda]/5 to-transparent -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]"></div>
         
-        <div className="relative flex-shrink-0 w-12 h-12 bg-[#233554] rounded-full flex items-center justify-center text-slate-200 transition-all duration-300 group-hover:scale-110 group-hover:bg-[#64ffda] group-hover:text-[#0a192f] group-hover:shadow-[0_0_15px_rgba(100,255,218,0.4)]">
-            {icon}
+        <div className="relative flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-[#233554] rounded-full flex items-center justify-center text-slate-200 transition-all duration-300 group-hover:scale-110 group-hover:bg-[#64ffda] group-hover:text-[#0a192f] group-hover:shadow-[0_0_15px_rgba(100,255,218,0.4)]">
+            <div className="scale-90 sm:scale-100">
+                {icon}
+            </div>
         </div>
-        <div className="relative z-10">
-            <h4 className="text-xl font-bold text-slate-200 group-hover:text-[#64ffda] transition-colors duration-300">{title}</h4>
-            <p className="text-base text-slate-400 group-hover:text-slate-200 transition-colors duration-300">{value}</p>
+        <div className="relative z-10 flex-1 min-w-0">
+            <h4 className="text-lg sm:text-xl font-bold text-slate-200 group-hover:text-[#64ffda] transition-colors duration-300 truncate sm:overflow-visible sm:whitespace-normal">{title}</h4>
+            <p className="text-sm sm:text-base text-slate-400 group-hover:text-slate-200 transition-colors duration-300 break-all sm:break-words">{value}</p>
         </div>
     </div>
 );
