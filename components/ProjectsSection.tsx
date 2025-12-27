@@ -38,19 +38,6 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
                         </svg>
                     </a>
                 )}
-                {project.liveUrl && (
-                    <a 
-                      href={project.liveUrl} 
-                      target="_blank" 
-                      rel="noopener noreferrer" 
-                      className="font-semibold text-slate-200 hover:text-[#64ffda] transition-colors duration-300 group inline-flex items-center text-base"
-                    >
-                        <span>View Project</span>
-                        <svg className="w-5 h-5 ml-2 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                        </svg>
-                    </a>
-                )}
             </div>
             
             {/* Right Col: Images */}
