@@ -148,6 +148,22 @@ const HeroSection: React.FC = () => {
             </AnimatedSection>
           </div>
         </div>
+        <a
+          href="#about"
+          onClick={handleNavClick}
+          className="group absolute bottom-6 left-1/2 -translate-x-1/2 w-12 h-12 rounded-full border-2 border-[#FC9904] flex items-center justify-center overflow-hidden pointer-events-auto"
+          aria-label="Go to About section"
+        >
+          <span className="absolute inset-0 bg-[#FC9904] -translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
+          <svg
+            className="relative w-6 h-6 text-[#FC9904] group-hover:text-[#0a192f] transition-colors duration-300"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </a>
       </section>
     );
 };
