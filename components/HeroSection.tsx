@@ -132,7 +132,7 @@ const HeroSection: React.FC = () => {
                     </svg>
                   </SocialIcon>
 
-                  <SocialIcon href="https://linkedin.com/in/VSRohit">
+                  <SocialIcon href="https://www.linkedin.com/in/venkata-satya-rohit-ramena/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="20"
