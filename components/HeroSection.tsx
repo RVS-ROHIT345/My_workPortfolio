@@ -69,7 +69,7 @@ const HeroSection: React.FC = () => {
               </AnimatedSection>
               <AnimatedSection animation="slide-in-up" delay="delay-100">
                 <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight text-transparent bg-clip-text bg-gradient-to-r from-teal-300 via-cyan-400 to-blue-500 pb-2">
-                  I'm Venkata Rohit Ramena.
+                  I'm Venkata Satya Rohit Ramena.
                   <br />I Code <span className="text-[#FC9904]">*</span> Create
                   <br />
                   <span className="text-[#FC9904]">*</span> Innovate.
