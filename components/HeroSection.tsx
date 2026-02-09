@@ -77,7 +77,7 @@ const HeroSection: React.FC = () => {
               </AnimatedSection>
               <AnimatedSection animation="slide-in-up" delay="delay-200">
                 <p className="mt-6 max-w-lg mx-auto md:mx-0 text-lg md:text-xl text-slate-300">
-                  Strategic Software Developer with 3+ years experience
+                  Strategic Software Developer with 4+ years experience
                   engineering AI-driven web applications and scalable
                   microservices.
                 </p>
@@ -92,7 +92,7 @@ const HeroSection: React.FC = () => {
                     View Projects
                   </a>
                   <a
-                    href="https://drive.google.com/file/d/1sRrcbYVTU5_K3ioIO4GKI0Te0zFLDWbb/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1iHg6Rw5R5R-9RvLi07SfNiwUlwbEJsax/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-hover-slide resume-btn px-6 py-3 font-semibold rounded-lg pointer-events-auto hover:text-white"
