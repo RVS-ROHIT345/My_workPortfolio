@@ -100,9 +100,22 @@ export const PROJECTS: Project[] = [
 
 export const EXPERIENCES: Experience[] = [
   {
+    role: 'Research Assistant',
+    company: 'George Mason University',
+    period: 'Nov 2025 - Present',
+    location: 'Fairfax, Virginia, USA',
+    description: [
+      'Evolved AI-powered Case Builder with advanced multi-agent coordination and RESTful API integrations, improving case quality consistency by 70%.',
+      'Enhanced full-stack Streamlit interface with versioning controls and collaborative editing, reducing iteration cycles by 40% through microservices backend.',
+      'Optimized Azure AI Foundry and GPT-4o-mini integration with context-aware agent routing, boosting output relevance by 45%.',
+      'Scaled cloud-based Azure Blob Storage architecture with automated backup mechanisms, sessionrecovery, and multi-user access controls.',
+      'Refined Docker deployment on Microsoft Azure with CI/CD, auto-scaling, and monitoring, achieving 99.8% uptime and 25% faster inference.'
+    ],
+  },
+  {
     role: 'Software Developer',
     company: 'Blue Horse Digital',
-    period: 'Feb 2025 - Present',
+    period: 'Feb 2025 - Jan 2026',
     location: 'Richmond, Virginia, USA',
     description: [
       'Directed development of an AI-powered Case Builder platform using multi-agent AI, improving efficiency by 60%.',
